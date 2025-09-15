@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Story Stapler</title>
-  <link rel="icon" type="image/png" href="/static/assets/staple.png">
+  <link rel="icon" type="image/png" href="static/assets/staple.png">
   <script src="static/js/p5/p5.js"></script>
   <script src="static/js/p5/addons/p5.sound.min.js"></script>
   <style>
@@ -26,7 +26,7 @@
   </style>
 </head>
 <body>
-  <img class="cursor" src="/static/assets/stapler_open.png" alt="Custom Cursor"/>
+  <img class="cursor" src="static/assets/stapler_open.png" alt="Custom Cursor"/>
 <script>
   const cursor = document.querySelector('.cursor');
   document.addEventListener('mousemove', (event) => {
@@ -45,10 +45,10 @@
   let xA, xB, xC, y, w, h;
 
   function preload() {
-    font = loadFont('/static/css/fonts/IBM_Plex_Sans/static/IBMPlexSans-Bold.ttf');
-    fontB= loadFont('/static/css/fonts/IBM_Plex_Sans/static/IBMPlexSans-Light.ttf');
+    font = loadFont('static/css/fonts/IBM_Plex_Sans/static/IBMPlexSans-Bold.ttf');
+    fontB= loadFont('static/css/fonts/IBM_Plex_Sans/static/IBMPlexSans-Light.ttf');
     for (let i = 0; i < 8; i++) {
-      staples.push(loadImage('/static/assets/staples/staple_.png'));
+      staples.push(loadImage('static/assets/staples/staple_.png'));
     }
     click=loadSound('static/assets/staples/sound/staple_click.mp3');
     release=loadSound('static/assets/staples/sound/staple_release.mp3');
@@ -178,7 +178,7 @@
   }
 
   function mousePressed() {
-    cursor.setAttribute('src', '/static/assets/stapler_closed.png');
+    cursor.setAttribute('src', 'static/assets/stapler_closed.png');
     if (click.isPlaying()) {
       click.stop();
     }
@@ -187,7 +187,7 @@
 
 
   function mouseReleased() {
-    cursor.setAttribute('src', '/static/assets/stapler_open.png');
+    cursor.setAttribute('src', 'static/assets/stapler_open.png');
     if (release.isPlaying()) {
       release.stop();
     }
