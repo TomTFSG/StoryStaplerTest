@@ -2,10 +2,10 @@
 <html>
 <head>
   <title>Story Stapler - Search</title>
-  <link rel="icon" type="image/png" href="/static/assets/staple.png">
-  <script src=".././static/js/p5/p5.js"></script>
-  <link rel="stylesheet" href="./static/css/fonts.css">
-  <link rel="stylesheet" href="./static/css/search.css">
+  <link rel="icon" type="image/png" href="static/assets/staple.png">
+  <script src="static/js/p5/p5.js"></script>
+  <link rel="stylesheet" href="static/css/fonts.css">
+  <link rel="stylesheet" href="static/css/search.css">
 </head>
 <body>
 <button class="returnBtn" type="button" onclick="window.location.href='/'"></button>
@@ -22,7 +22,7 @@
   <div id="formsWrapper">
   </div>
   <button id="newFormBtn" onclick="addSearchForm()">
-    <img id="btnImg" src="/static/assets/addBtn.svg" alt="Add Search Form" height="60px" width="60px"/>
+    <img id="btnImg" src="static/assets/addBtn.svg" alt="Add Search Form" height="60px" width="60px"/>
   </button>
 </div>
 <div id="stitchPopup">
@@ -404,8 +404,8 @@ function fakeFetch(url, options = {}) {
 
   const btn = document.getElementById('newFormBtn');
   const img = document.getElementById('btnImg');
-  const defaultSrc = '/static/assets/addBtn.svg';
-  const hoverSrc = '/static/assets/addBtn.hover.svg';
+  const defaultSrc = 'static/assets/addBtn.svg';
+  const hoverSrc = 'static/assets/addBtn.hover.svg';
 
   btn.addEventListener('mouseenter', () => {
     if (!btn.disabled) {
@@ -466,7 +466,7 @@ function fakeFetch(url, options = {}) {
 
   let NextFormId = 2;
 
-  import { initSegmentModal, openScenePopup, restoreSearchForm } from '/static/js/segmentModal.js';
+  import { initSegmentModal, openScenePopup, restoreSearchForm } from 'static/js/segmentModal.js';
   initSegmentModal();
   window.openScenePopup = openScenePopup;
   window.handleSceneClick = handleSceneClick;
@@ -833,7 +833,7 @@ function fakeFetch(url, options = {}) {
         console.log(`Raw genre: ${rawGenre}, Normalized: ${normalizedGenre}`);
         const color = genreColorMap[normalizedGenre] || 'black';
         const colorHover = genreColorMapHover[normalizedGenre] || 'black';
-        const svgPath = `/static/assets/genres/${normalizedGenre}.svg`;
+        const svgPath = `static/assets/genres/${normalizedGenre}.svg`;
 
         const sceneItem = document.createElement('div');
         sceneItem.className = 'scene-item';
@@ -1168,7 +1168,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.getElementById('reloadScenesBtn').addEventListener('click', () => {
   console.log('Reloading scenes...');
 
-  document.getElementById('btnImg').src = '/static/assets/addBtn.disable.svg';
+  document.getElementById('btnImg').src = 'static/assets/addBtn.disable.svg';
   document.querySelectorAll('.removeBtn').forEach(btn => btn.disabled = true);
   document.getElementById('newFormBtn').disabled = true;
   document.getElementById('reloadScenesBtn').disabled = true;
@@ -1181,7 +1181,7 @@ document.getElementById('reloadScenesBtn').addEventListener('click', () => {
     .then(data => {
       console.log('Scenes reloaded:', data);
       
-      document.getElementById('btnImg').src = '/static/assets/addBtn.svg';
+      document.getElementById('btnImg').src = 'static/assets/addBtn.svg';
       document.getElementById('newFormBtn').disabled = false;
       document.querySelectorAll('.removeBtn').forEach(btn => btn.disabled = false);
       document.getElementById('reloadScenesBtn').disabled = false;
@@ -1194,7 +1194,7 @@ document.getElementById('reloadScenesBtn').addEventListener('click', () => {
       console.error(err);
 
       document.querySelectorAll('.removeBtn').forEach(btn => btn.disabled = false);
-      document.getElementById('btnImg').src = '/static/assets/addBtn.svg';
+      document.getElementById('btnImg').src = 'static/assets/addBtn.svg';
       document.getElementById('newFormBtn').disabled = false;
       document.getElementById('reloadScenesBtn').disabled = false;
       document.getElementById('stitchBtn').disabled = false;
