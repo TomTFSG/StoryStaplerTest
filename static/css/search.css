@@ -154,7 +154,7 @@ button{
   margin:0;
   width: 24px;
   height: 24px;
-  background-image: url('/static/assets/close_window.svg');
+  background-image: url('static/assets/close_window.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -164,7 +164,7 @@ button{
 .removeFil:hover:enabled {
   width: 24px;
   height: 24px;
-  background-image: url('/static/assets/close_window.hover.svg');
+  background-image: url('static/assets/close_window.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -180,7 +180,7 @@ button{
   left: 5px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/back.svg');
+  background-image: url('static/assets/back.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -195,7 +195,7 @@ button{
   left: 5px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/back.hover.svg');
+  background-image: url('static/assets/back.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -209,7 +209,7 @@ button{
   left: 5px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/back.disable.svg');
+  background-image: url('static/assets/back.disable.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -225,7 +225,7 @@ button{
   left: 85px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/reload.svg');
+  background-image: url('static/assets/reload.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -240,7 +240,7 @@ button{
   left: 85px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/reload.hover.svg');
+  background-image: url('static/assets/reload.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -254,7 +254,7 @@ button{
   left: 165px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/question.svg');
+  background-image: url('static/assets/question.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -269,7 +269,7 @@ button{
   left: 165px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/question.hover.svg');
+  background-image: url('static/assets/question.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -283,7 +283,7 @@ button{
   left: 85px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/reload.disable.svg');
+  background-image: url('static/assets/reload.disable.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -301,7 +301,7 @@ button{
   left: 5%;
   width: 25px;
   height: 25px;
-  background-image: url('/static/assets/back.svg');
+  background-image: url('static/assets/back.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -313,13 +313,13 @@ button{
   margin: 5px 0;
 }
 .backBtn:hover:enabled {
-  background-image: url('/static/assets/back.hover.svg');
+  background-image: url('static/assets/back.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
 }
 .backBtn:disabled{
-  background-image: url('/static/assets/back.disable.svg');
+  background-image: url('static/assets/back.disable.svg');
   background-repeat: no-repeat;
   background-size: contain;
   opacity:0.3;
@@ -383,7 +383,7 @@ select{
   right: 3%;
   width: 24px;
   height: 24px;
-  background-image: url('/static/assets/close_window.svg');
+  background-image: url('static/assets/close_window.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -400,7 +400,7 @@ select{
   right: 3%;
   width: 24px;
   height: 24px;
-  background-image: url('/static/assets/close_window.hover.svg');
+  background-image: url('static/assets/close_window.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -473,7 +473,7 @@ select{
   right: 10px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/stitch.svg');
+  background-image: url('static/assets/stitch.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -492,7 +492,7 @@ select{
   right: 10px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/stitch.hover.svg');
+  background-image: url('static/assets/stitch.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -510,7 +510,7 @@ select{
   right: 10px;
   width: 75px;
   height: 75px;
-  background-image: url('/static/assets/stitch.disable.svg');
+  background-image: url('static/assets/stitch.disable.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -530,7 +530,7 @@ select{
   right: 5%;
   width: 24px;
   height: 24px;
-  background-image: url('/static/assets/close_window.svg');
+  background-image: url('static/assets/close_window.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -547,7 +547,7 @@ select{
   right: 5%;
   width: 24px;
   height: 24px;
-  background-image: url('/static/assets/close_window.hover.svg');
+  background-image: url('static/assets/close_window.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -564,7 +564,7 @@ select{
   right: 5%;
   width: 24px;
   height: 24px;
-  background-image: url('/static/assets/close_window.disable.svg');
+  background-image: url('static/assets/close_window.disable.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -718,7 +718,7 @@ ul {
 .paused{
   width:50px;
   height:50px;
-  background-image: url('/static/assets/playbtn.svg');
+  background-image: url('static/assets/playbtn.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -727,7 +727,7 @@ ul {
 .paused:hover:enabled {
   width:50px;
   height:50px;
-  background-image: url('/static/assets/playbtn.hover.svg');
+  background-image: url('static/assets/playbtn.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -736,7 +736,7 @@ ul {
 .playing{
   width:50px;
   height:50px;
-  background-image: url('/static/assets/pausebtn.svg');
+  background-image: url('static/assets/pausebtn.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -745,7 +745,7 @@ ul {
 .playing:hover:enabled {
   width:50px;
   height:50px;
-  background-image: url('/static/assets/pausebtn.hover.svg');
+  background-image: url('static/assets/pausebtn.hover.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
